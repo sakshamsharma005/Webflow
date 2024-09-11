@@ -1,0 +1,142 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+
+/* Logo positioning */
+.logo {
+    position: absolute;
+    top: 30px;
+    left: 60px;
+}
+
+.logo svg {
+    scale:2;
+}
+
+.login-container {
+    text-align: center;
+    margin-top: -50px; /* Adjust to move the login form up */
+}
+
+.login-box {
+    width: 400px;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.login-box h2 {
+    text-align: left;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.google-login {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #e6e6e6;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.google-login img {
+    width: 18px;
+    margin-right: 10px;
+}
+
+.or-text {
+    font-size: 14px;
+    color: #999;
+    margin: 15px 0;
+}
+
+.input-group {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+    border: 1px solid #e6e6e6;
+    border-radius: 5px;
+}
+
+.show-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.show-password img {
+    width: 18px;
+}
+
+.login-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2979ff;
+    color: white;
+    font-size: 14px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-button:hover {
+    background-color: #1c63d2;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.links a {
+    color: #2979ff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.sso-link {
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.sso-link a {
+    color: #2979ff;
+    text-decoration: none;
+}
+
+.sso-link a:hover {
+    text-decoration: underline;
+}
